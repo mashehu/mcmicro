@@ -3,7 +3,6 @@ nf_core_version: "2.14.1"
 lint:
   nextflow_config:
     - params.input
-template:
-  skip_features:
-    - igenomes
-    - fastqc
+skip:
+  - fastqc
+  - igenomes
