@@ -1,7 +1,7 @@
 bump_version: null
 lint:
   nextflow_config:
-  - params.input
+    - params.input
 nf_core_version: 3.0.0.dev0
 org_path: null
 repository_type: pipeline
